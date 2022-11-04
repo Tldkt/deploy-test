@@ -86,7 +86,7 @@ public class UserService {
                 .map(article -> ArticleResponse.builder()
                         .articleId(article.getArticleId())
                         .title(article.getTitle())
-                        .contents(article.getContents())
+                        .content(article.getContent())
                         .build())
                 .collect(Collectors.toList());
     }
@@ -100,7 +100,7 @@ public class UserService {
         return comments.stream()
                 .map(comment -> CommentResponseDto.builder()
                         .commentId(comment.getCommentId())
-                        .username(comment.getUsername())
+                        .email(comment.getEmail())
                         .content(comment.getContent())
                         .build())
                 .collect(Collectors.toList());
