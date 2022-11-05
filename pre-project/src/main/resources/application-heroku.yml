@@ -3,7 +3,7 @@ mail:
     admin: asd@gmail.com
 
 jwt:
-  secret-key: fighting033
+  secret-key: fighting0331nrwqejfdoi1435h43251kl54h23l52jhb513
   access-token-expiration-minutes: 30
   refresh-token-expiration-minutes: 420
 
