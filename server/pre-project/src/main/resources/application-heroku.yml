@@ -23,11 +23,10 @@ spring:
 spring:
   config.activate.on-profile: heroku
   datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
     url: ${JAWSDB_URL}
     username: ${USER_NAME}
     password: ${PASSWORD}
-    port: ${PORT}
-    driver-class-name: com.mysql.cj.jdbc.Driver
   jpa.hibernate.ddl-auto: create
   sql.init.mode: always
 server:

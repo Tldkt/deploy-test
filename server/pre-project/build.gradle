@@ -56,3 +56,9 @@ jar {
 		attributes('Main-Class': 'com.codestates.preproject.PreProjectApplication')
 	}
 }
+bootJar{
+	destinationDirectory = file("./target")
+	archivesBaseName = 'pre-project'
+	archiveFileName = 'pre-project.jar'
+	archiveVersion = "0.0.1"
+}
