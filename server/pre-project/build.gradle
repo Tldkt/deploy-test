@@ -50,6 +50,9 @@ dependencies {
 tasks.named('test') {
 	useJUnitPlatform()
 }
+test {
+	exclude '**/*'
+}
 // Heroku 설정
 jar {
 	manifest {
