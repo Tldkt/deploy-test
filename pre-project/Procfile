@@ -1,1 +1,1 @@
-web: java -Dlog4j2.formatMsgNoLookups=true -Dserver.port=8080 -Dspring.profiles.active=heroku -Duser.timezone=Asia/Seoul $JAVA_OPTS-jar build/libs/pre-project.jar
+web: java -Dlog4j2.formatMsgNoLookups=true -Dserver.port=$PORT -cp -Dspring.profiles.active=heroku -Duser.timezone=Asia/Seoul $JAVA_OPTS-jar build/libs/pre-project.jar

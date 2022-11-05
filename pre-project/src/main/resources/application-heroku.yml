@@ -27,10 +27,10 @@ spring:
     url: ${JAWSDB_URL:}
     username: f6s86rq2hejgd8jp
     password: x7v13xilmvgd2z00
-  jpa.hibernate.ddlcd-auto: create
+  jpa.hibernate.ddlcd-auto: update
   sql.init.mode: always
 server:
-  port: 8080
+  port: ${port:8787}
 
 
 
