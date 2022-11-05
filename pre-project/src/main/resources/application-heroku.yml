@@ -30,7 +30,7 @@ spring:
   jpa.hibernate.ddlcd-auto: create
   sql.init.mode: always
 server:
-  port: ${port:8080}
+  port: 8080
 
 
 
