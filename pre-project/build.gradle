@@ -60,3 +60,5 @@ bootJar{
 	archiveFileName = 'pre-project.jar'
 	archiveVersion = "0.0.1"
 }
+task stage(dependsOn: ['build', 'clean'])
+build.mustRunAfter clean

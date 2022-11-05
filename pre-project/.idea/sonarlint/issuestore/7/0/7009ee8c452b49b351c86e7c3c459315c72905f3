@@ -1,0 +1,17 @@
+
+y
+java:S4165"cRemove this useless assignment; "email" already holds the assigned value along all execution paths.(Ûé²¾
+s
+java:S1450
+"XRemove the "articleId" field and declare it as a local variable in the relevant methods.(ùËÉÒûÿÿÿÿ
+B
+java:S1172",Remove this unused method parameter "email".(ØıË†
+E
+java:S1656"/Remove or correct this useless self-assignment.(Ûé²¾
+H
+java:S1068
+"-Remove this unused "articleId" private field.(ùËÉÒûÿÿÿÿ
+D
+java:S1068")Remove this unused "title" private field.(åõò¹ıÿÿÿÿ
+F
+java:S1068"+Remove this unused "content" private field.(ÃÇÿôøÿÿÿÿ

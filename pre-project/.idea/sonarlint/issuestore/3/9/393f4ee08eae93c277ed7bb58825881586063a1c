@@ -1,0 +1,21 @@
+
+@
+java:S1068"*Remove this unused "status" private field.(·â¼
+F
+java:S1068"+Remove this unused "message" private field.(ù„è¿ûÿÿÿÿ
+J
+java:S1068"/Remove this unused "fieldErrors" private field.(Ñ¤Àüÿÿÿÿ
+N
+java:S1068"3Remove this unused "violationErrors" private field.(ì¯ÁŞıÿÿÿÿ
+?
+java:S10684")Remove this unused "field" private field.(ñê­„
+L
+java:S10685"1Remove this unused "rejectedValue" private field.(‘ĞĞ£ıÿÿÿÿ
+@
+java:S10686"*Remove this unused "reason" private field.(¶¨é
+K
+java:S1068L"0Remove this unused "propertyPath" private field.(ú¦Á£ùÿÿÿÿ
+L
+java:S1068M"1Remove this unused "rejectedValue" private field.(‘ĞĞ£ıÿÿÿÿ
+@
+java:S1068N"*Remove this unused "reason" private field.(¶¨é
