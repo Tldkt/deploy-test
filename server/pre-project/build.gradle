@@ -57,7 +57,7 @@ jar {
 	}
 }
 bootJar{
-	destinationDirectory = file("./target")
+	destinationDirectory = file("./build/libs")
 	archivesBaseName = 'pre-project'
 	archiveFileName = 'pre-project.jar'
 	archiveVersion = "0.0.1"
