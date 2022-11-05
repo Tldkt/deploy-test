@@ -53,12 +53,7 @@ tasks.named('test') {
 test {
 	exclude '**/*'
 }
-// Heroku 설정
-jar {
-	manifest {
-		attributes('Main-Class': 'com.codestates.preproject.PreProjectApplication')
-	}
-}
+
 bootJar{
 	destinationDirectory = file("./build/libs")
 	archivesBaseName = 'pre-project'
