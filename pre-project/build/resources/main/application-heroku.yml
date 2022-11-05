@@ -27,7 +27,7 @@ spring:
     url: mysql://f6s86rq2hejgd8jp:x7v13xilmvgd2z00@o2olb7w3xv09alub.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/ayys101aebv9odg1
     username: f6s86rq2hejgd8jp
     password: x7v13xilmvgd2z00
-  jpa.hibernate.ddl-auto: create
+  jpa.hibernate.ddlcd-auto: create
   sql.init.mode: always
 server:
   port: ${port:8080}
