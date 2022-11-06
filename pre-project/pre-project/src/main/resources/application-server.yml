@@ -1,0 +1,36 @@
+mail:
+  address:
+    admin: asd@gmail.com
+
+jwt:
+  secret-key: fighting0331nrwqejfdoi1435h43251kl54h23l52jhb513
+  access-token-expiration-minutes: 30
+  refresh-token-expiration-minutes: 420
+
+
+spring:
+  jpa:
+    open-in-view: false
+    defer-datasource-initialization: true
+    hibernate.ddl-auto: create
+    show-sql: true
+    properties:
+      hibernate.format_sql: true
+      hibernate.default_batch_fetch_size: 100
+  sql.init.mode: always
+
+---
+spring:
+  config.activate.on-profile: heroku
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: ${JAWSDB_URL:}
+    username: f6s86rq2hejgd8jp
+    password: x7v13xilmvgd2z00
+  jpa.hibernate.ddlcd-auto: update
+  sql.init.mode: always
+server:
+  port: $PORT
+
+
+
