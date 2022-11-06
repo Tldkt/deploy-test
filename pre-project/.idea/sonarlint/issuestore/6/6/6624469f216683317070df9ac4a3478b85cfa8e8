@@ -1,9 +1,0 @@
-
-n
-java:S1450"XRemove the "commentId" field and declare it as a local variable in the relevant methods.(ц╩ўА
-o
-java:S1450"TRemove the "email" field and declare it as a local variable in the relevant methods.(кл╒ь∙    
-C
-java:S1068"-Remove this unused "commentId" private field.(ц╩ўА
-D
-java:S1068")Remove this unused "email" private field.(кл╒ь∙    

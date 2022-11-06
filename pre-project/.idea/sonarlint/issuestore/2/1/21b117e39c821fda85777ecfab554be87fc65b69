@@ -1,15 +1,0 @@
-
-C
-java:S1068"-Remove this unused "commentId" private field.(æÊ÷€
-F
-java:S1068"+Remove this unused "content" private field.(ÃÇÿôøÿÿÿÿ
-D
-java:S1068")Remove this unused "email" private field.(ª«Õìùÿÿÿÿ
-C
-java:S1068"(Remove this unused "vote" private field.(ÇË‡Õûÿÿÿÿ
-H
-java:S1068"-Remove this unused "createdAt" private field.(¯‰‡ƒıÿÿÿÿ
-I
-java:S1068".Remove this unused "modifiedAt" private field.(Í¬ñÕşÿÿÿÿ
-H
-java:S1068"-Remove this unused "articleId" private field.(ùËÉÒûÿÿÿÿ

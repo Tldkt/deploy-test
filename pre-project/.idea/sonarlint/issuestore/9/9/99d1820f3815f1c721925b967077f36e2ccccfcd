@@ -1,7 +1,0 @@
-
-v
-java:S1488|"`Immediately return this expression instead of assigning it to the temporary variable "findUser".(÷Éç¹
-c
-java:S1612u"HReplace this lambda with method reference 'SimpleGrantedAuthority::new'.(ÇŸ×¸úÿÿÿÿ
-L
-java:S1144s"6Remove this unused private "createAuthorities" method.(ê÷Í­

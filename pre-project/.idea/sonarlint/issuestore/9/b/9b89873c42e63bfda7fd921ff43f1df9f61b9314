@@ -1,9 +1,0 @@
-
-s
-java:S1450"XRemove the "articleId" field and declare it as a local variable in the relevant methods.(ùËÉÒûÿÿÿÿ
-o
-java:S1450"TRemove the "email" field and declare it as a local variable in the relevant methods.(ª«Õìùÿÿÿÿ
-D
-java:S1068")Remove this unused "email" private field.(ª«Õìùÿÿÿÿ
-H
-java:S1068"-Remove this unused "articleId" private field.(ùËÉÒûÿÿÿÿ
