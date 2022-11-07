@@ -1,4 +1,3 @@
-
 plugins {
 	id 'org.springframework.boot' version '2.7.5'
 	id 'io.spring.dependency-management' version '1.0.15.RELEASE'
@@ -61,6 +60,7 @@ bootJar{
 	archiveFileName = 'pre-project.jar'
 	archiveVersion = "0.0.1"
 }
+
 task stage(dependsOn: ['build', 'clean'])
 build.mustRunAfter clean
 
